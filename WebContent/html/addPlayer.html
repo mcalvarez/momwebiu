@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<form action="/MOMWebSite/rest/player/add">
+			Name <input type="input" name="name" /><br />
+			IdGame <input type="input" name="idGame" />
+			<input type="submit" />
+		</form><br />
+		<form action="/MOMWebSite/rest/player/actions/list">
+			IdPlayer <input type="input" name="idPlayer" /><br />
+			IdGame <input type="input" name="idGame" />
+			<input type="submit" />
+		</form><br />
+		<form action="/MOMWebSite/rest/player/actions/exec">
+			IdPlayer <input type="input" name="idPlayer" /><br />
+			IdGame <input type="input" name="idGame" /> <br />
+			IdPlayerAction <input type="input" name="idPlayerAction" />
+			<input type="submit" />
+		</form>
+	</body>
+</html>
